@@ -1,0 +1,69 @@
+{
+  "header": {
+    "about": "À propos",
+    "contact": "Contactez-nous",
+    "pricing": "Tarifs",
+    "demo": "Demander une démo"
+  },
+  "hero": {
+    "h1": "Toute votre conformité KYC en un seul endroit.",
+    "h2": "Rapide, sécurisé, automatisé",
+    "list1": "Plus de va-et-vient entre les outils.",
+    "list2": "Plus de copier-coller de données entre les systèmes.",
+    "list3": "Plus d’attente, plus d’incertitudes, plus de temps perdu.",
+    "cta": "Réservez votre démo maintenant →",
+    "p": "Un processus <strong>rapide et fluide</strong>,<br>de la vérification de document à la décision.<br><strong>Tout dans Raven.</strong>"
+  },
+  "features": {
+    "eyebrow": "Responsables conformité :",
+    "title": "Celui-ci est pour vous",
+    "list1": "Fini le jonglage entre les outils.",
+    "list2": "Fini de changer d’onglet pour vérifier un seul client.",
+    "list3": "Fini de perdre des heures avec des “processus” cassés.",
+    "card1": "Vérification d'identité & documents",
+    "card2": "Listes de surveillance mondiales",
+    "card3": "PEPs, sanctions, médias négatifs",
+    "card4": "Scores de risque, pistes d’audit et notes internes",
+    "lead1": "C’est comme engager toute une équipe conformité.",
+    "lead2": "Seulement plus rapide. <strong>Plus intelligent.</strong> Et jamais en pause déjeuner."
+  },
+  "howItWorks": {
+    "title": "Voici comment ça marche",
+    "step1_title": "Téléchargez. Vérifiez. C’est fait.",
+    "step1_text": "Votre client télécharge une pièce d’identité. Raven vérifie le document, le compare aux bases mondiales et le valide — en quelques secondes.",
+    "step2_title": "Identifiez le risque et comprenez le pourquoi",
+    "step2_text": "Raven ne se contente pas de crier “ALERTE”. Il vous explique pourquoi. Avec du contexte, des preuves et une IA explicable.",
+    "step3_title": "Tout dans un seul profil",
+    "step3_text": "Chaque fichier. Chaque note. Chaque alerte. Tout dans une vue sécurisée partagée par votre équipe. Besoin d’un audit trail ? Il est déjà prêt."
+  },
+  "testimonials": {
+    "heading": "Conçu pour ceux qui font vraiment le travail",
+    "card1_text": "Nous utilisions 4 outils. Raven les a tous remplacés. Nous intégrons nos clients 2× plus vite. Et la conformité ? Impeccable.",
+    "card1_role": "Responsable conformité",
+    "card1_company": "Fintech, Paris",
+    "card2_text": "« Nous ne nous inquiétons plus du KYC, Raven le fait pour nous. » Des vérifications d’identité aux listes de sanctions, tout est automatique. L’équipe gagne des heures chaque semaine et chaque client est vérifié en profondeur.",
+    "card2_role": "COO",
+    "card2_company": "Exchange Crypto, Berlin",
+    "card3_text": "« L’IA explicable a tout changé pour nous. » Avec Raven, nous voyons exactement pourquoi un client est signalé — avec des preuves claires. Ce n’est pas juste une alerte, c’est une explication.",
+    "card3_role": "Responsable Risques & Conformité",
+    "card3_company": "Neobanque, Amsterdam"
+  },
+  "whyRaven": {
+    "title": "Pourquoi Raven ?",
+    "card1": "Une IA qui pense comme<br>un régulateur",
+    "card2": "Analyse multilingue des listes de surveillance",
+    "card3": "Rapports en temps réel",
+    "card4": "Sécurité et conformité totales",
+    "card5": "Zéro intégration compliquée.<br>Ça marche tout simplement"
+  },
+  "cta": {
+    "title": "Prêt à arrêter de surveiller votre processus KYC ?",
+    "copy": "Raven n’est pas un outil de plus.<br>C’est l’outil.<br>Celui dans lequel votre équipe se connecte et ne veut plus se déconnecter.<br>Parce qu’il rend enfin le KYC… logique.",
+    "button": "Réservez votre démo maintenant →"
+  },
+  "footer": {
+    "copyright": "© 2025 Raven Technologies. Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales"
+  }
+}

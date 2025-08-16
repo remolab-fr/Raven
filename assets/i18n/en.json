@@ -1,0 +1,69 @@
+{
+  "header": {
+    "about": "About",
+    "contact": "Contact Us",
+    "pricing": "Pricing",
+    "demo": "Request a Demo"
+  },
+  "hero": {
+    "h1": "All Your KYC in One Place.",
+    "h2": "Fast, Secure, Automated",
+    "list1": "No bouncing between tools.",
+    "list2": "No copy-pasting data across systems.",
+    "list3": "No waiting, no wondering, no wasted time.",
+    "cta": "Book Your Demo Now →",
+    "p": "Just clean, fast, <strong>end-to-end onboarding</strong>,<br>from doc check to decision.<br><strong>All inside Raven.</strong>"
+  },
+  "features": {
+    "eyebrow": "Compliance Officers:",
+    "title": "This One’s for You",
+    "list1": "No more juggling tools.",
+    "list2": "No more switching between tabs just to verify one client.",
+    "list3": "No more wasting hours on broken “processes”.",
+    "card1": "ID verification & document checks",
+    "card2": "Global watchlists",
+    "card3": "PEPs, sanctions, adverse media",
+    "card4": "Risk scoring, audit trails, and internal notes",
+    "lead1": "It’s like hiring a full compliance squad.",
+    "lead2": "Only faster. <strong>Smarter.</strong> And never out to lunch."
+  },
+  "howItWorks": {
+    "title": "Here’s How It Works",
+    "step1_title": "Upload. Verify. Done",
+    "step1_text": "Your client uploads an ID. Raven checks the doc, cross-references global databases, and verifies it — in seconds. No waiting. No guessing. No delays.",
+    "step2_title": "Spot the Risk, and See the Why",
+    "step2_text": "Raven doesn’t just scream “ALERT.” It tells you why. With context, evidence, and explainable AI. No black boxes. Just clarity.",
+    "step3_title": "Everything In One Profile",
+    "step3_text": "Every file. Every note. Every flag. All in one secure view your whole team can access. Need an audit trail? It’s already done."
+  },
+  "testimonials": {
+    "heading": "Built for People Who Actually Do the Work",
+    "card1_text": "We used to juggle 4 tools. Raven replaced all of them. We onboard clients 2× faster. And compliance? Rock solid.",
+    "card1_role": "Head of Compliance",
+    "card1_company": "Fintech, Paris",
+    "card2_text": "“We don’t worry about KYC anymore, Raven does it for us.” From ID checks to sanctions lists, it’s all automatic. Our team saves hours every week, and we know every client is screened thoroughly. Raven is like adding an entire compliance team overnight.",
+    "card2_role": "COO",
+    "card2_company": "Crypto Exchange, Berlin",
+    "card3_text": "“Explainable AI changed everything for us.” With Raven, we see exactly why a client is flagged—with clear evidence. It’s not just an alert—it’s insight. Our decisions are faster and smarter, and our auditors love the clean trail.",
+    "card3_role": "Head of Risk & Compliance",
+    "card3_company": "Neobank, Amsterdam"
+  },
+  "whyRaven": {
+    "title": "Why Raven?",
+    "card1": "AI That Thinks Like a<br>Regulator",
+    "card2": "Multilingual Watchlist<br>Scanning",
+    "card3": "Real-Time Reporting",
+    "card4": "Fully Secure. Fully<br>Compliant",
+    "card5": "Zero Integration<br>Headaches. It Just Works"
+  },
+  "cta": {
+    "title": "Ready to Stop Babysitting Your KYC Process?",
+    "copy": "Raven isn’t another tool.<br>It’s the tool.<br>The one your team logs into, and never wants to log out of.<br>Because it finally makes KYC… make sense.",
+    "button": "Book Your Demo Now →"
+  },
+  "footer": {
+    "copyright": "© 2025 Raven Technologies. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  }
+}
