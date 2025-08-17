@@ -1,14 +1,19 @@
 # Use lightweight Nginx image
 FROM nginx:alpine
 
-# Remove default Nginx static files
+# Remove default Nginx files
 RUN rm -rf /usr/share/nginx/html/*
 
-# Copy your project files into Nginx's default web root
+# Copy all static files (HTML, CSS, JS, images)
 COPY . /usr/share/nginx/html
 
-# Expose port 80 (Nginx default)
-EXPOSE 80
+# Configure Nginx for Cloud Run (listens on $PORT)
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Start Nginx when the container runs
-CMD ["nginx", "-g", "daemon off;"]
+# App Runner requires PORT environment variable
+ENV PORT=8080
+EXPOSE $PORT
+
+# Start Nginx with dynamic PORT
+CMD sed -i "s/listen 80/listen $PORT/g" /etc/nginx/conf.d/default.conf && \
+    nginx -g 'daemon off;'
