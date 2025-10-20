@@ -358,6 +358,68 @@
       </div>
     </div>
   </footer>
+    <!-- === Demo Modal === -->
+<div class="modal-backdrop" id="demoModalBackdrop" hidden></div>
+<div class="modal" id="demoModal" role="dialog" aria-modal="true" aria-labelledby="demoModalTitle" aria-hidden="true">
+  <div class="modal-head">
+    <h3 id="demoModalTitle">Request a Demo</h3>
+    <button class="modal-close" type="button" aria-label="Close">
+      <span class="material-symbols-rounded" aria-hidden="true">close</span>
+    </button>
+  </div>
+
+  <!-- Switch (KYC / KYB) -->
+  <div class="mode-switch" role="tablist" aria-label="Mode switch">
+    <button type="button" class="mode-tab is-active" role="tab" aria-selected="true" id="tab-kyc">KYC</button>
+    <button type="button" class="mode-tab" role="tab" aria-selected="false" id="tab-kyb">KYB</button>
+    <span class="mode-pill" aria-hidden="true"></span>
+  </div>
+
+  <form id="demoForm" novalidate>
+    <!-- Shared -->
+    <div class="form-row">
+      <label for="demoEmail">Email <span class="req">*</span></label>
+      <input id="demoEmail" name="email" type="email" required placeholder="you@company.com" autocomplete="email" />
+      <p class="field-msg" data-for="demoEmail"></p>
+    </div>
+
+    <!-- KYC group -->
+    <div class="form-group" data-group="kyc">
+      <div class="form-row">
+        <label for="firstName">First name <span class="req">*</span></label>
+        <input id="firstName" name="firstName" required placeholder="Jane" autocomplete="given-name" />
+        <p class="field-msg" data-for="firstName"></p>
+      </div>
+      <div class="form-row">
+        <label for="lastName">Last name <span class="req">*</span></label>
+        <input id="lastName" name="lastName" required placeholder="Doe" autocomplete="family-name" />
+        <p class="field-msg" data-for="lastName"></p>
+      </div>
+      <div class="form-row">
+        <label for="country">Country</label>
+        <input id="country" name="country" placeholder="e.g., France" autocomplete="country-name" />
+      </div>
+    </div>
+
+    <!-- KYB group -->
+    <div class="form-group" data-group="kyb" hidden>
+      <div class="form-row">
+        <label for="company">Company <span class="req">*</span></label>
+        <input id="company" name="company" placeholder="Acme Inc." />
+        <p class="field-msg" data-for="company"></p>
+      </div>
+      <div class="form-row">
+        <label for="desc">Description</label>
+        <textarea id="desc" name="description" rows="4" placeholder="Tell us about your use case..."></textarea>
+      </div>
+    </div>
+
+    <div class="modal-actions">
+      <button type="button" class="btn-secondary" id="demoCancel">Cancel</button>
+      <button type="submit" class="btn-primary">Submit</button>
+    </div>
+  </form>
+</div>
 
   <script src="script.js"></script>
 </body>
