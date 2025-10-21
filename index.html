@@ -23,8 +23,8 @@
       </a>
 
       <nav class="header-nav">
-        <a href="#about" data-i18n="header.about">About</a>
-        <a href="#contact" data-i18n="header.contact">Contact Us</a>
+        <a href="about.html" data-i18n="header.about">About</a>
+        <a href="contact.html" data-i18n="header.contact">Contact Us</a>
         <div class="lang-switch">
           <select id="lang">
             <option value="en" selected>🇬🇧 EN</option>
@@ -43,9 +43,8 @@
   <!-- Drawer -->
   <div class="drawer-backdrop"></div>
   <div class="drawer">
-    <a href="#about" data-i18n="drawer_about">About</a>
-    <a href="#contact" data-i18n="drawer_contact">Contact Us</a>
-    <a href="#pricing" data-i18n="drawer_pricing">Pricing</a>
+    <a href="about.html" data-i18n="drawer_about">About</a>
+    <a href="contact.html" data-i18n="drawer_contact">Contact Us</a>
     <a href="#demo" data-i18n="drawer_request_demo">Request a Demo</a>
   </div>
 
@@ -61,7 +60,7 @@
             <li data-i18n="hero.list2">No copy-pasting data across systems.</li>
             <li data-i18n="hero.list3">No waiting, no wondering, no wasted time.</li>
           </ul>
-          <a href="#demo" class="btn cta" data-i18n="hero.cta">Book Your Demo Now →</a>
+          <a href="#demo" class="btn cta" data-i18n="hero.cta">Book Your Demo Now</a>
           <p data-i18n="hero.p">Just clean, fast, <strong>end-to-end onboarding</strong>,<br>from doc check to decision.<br><strong>All
               inside Raven.</strong></p>
         </div>
@@ -362,7 +361,7 @@
 <div class="modal-backdrop" id="demoModalBackdrop" hidden></div>
 <div class="modal" id="demoModal" role="dialog" aria-modal="true" aria-labelledby="demoModalTitle" aria-hidden="true">
   <div class="modal-head">
-    <h3 id="demoModalTitle">Request a Demo</h3>
+    <h3 id="demoModalTitle" data-i18n="modal.title">Request a Demo</h3>
     <button class="modal-close" type="button" aria-label="Close">
       <span class="material-symbols-rounded" aria-hidden="true">close</span>
     </button>
@@ -370,56 +369,57 @@
 
   <!-- Switch (KYC / KYB) -->
   <div class="mode-switch" role="tablist" aria-label="Mode switch">
-    <button type="button" class="mode-tab is-active" role="tab" aria-selected="true" id="tab-kyc">KYC</button>
-    <button type="button" class="mode-tab" role="tab" aria-selected="false" id="tab-kyb">KYB</button>
+    <button type="button" class="mode-tab is-active" role="tab" aria-selected="true" id="tab-kyc" data-i18n="modal.tabs.kyc">KYC</button>
+    <button type="button" class="mode-tab" role="tab" aria-selected="false" id="tab-kyb" data-i18n="modal.tabs.kyb">KYB</button>
     <span class="mode-pill" aria-hidden="true"></span>
   </div>
 
   <form id="demoForm" novalidate>
     <!-- Shared -->
     <div class="form-row">
-      <label for="demoEmail">Email <span class="req">*</span></label>
-      <input id="demoEmail" name="email" type="email" required placeholder="you@company.com" autocomplete="email" />
+      <label for="demoEmail" data-i18n="modal.labels.email">Email <span class="req">*</span></label>
+      <input id="demoEmail" name="email" type="email" required placeholder="you@company.com" autocomplete="email" data-i18n="modal.placeholders.email" />
       <p class="field-msg" data-for="demoEmail"></p>
     </div>
 
     <!-- KYC group -->
     <div class="form-group" data-group="kyc">
       <div class="form-row">
-        <label for="firstName">First name <span class="req">*</span></label>
-        <input id="firstName" name="firstName" required placeholder="Jane" autocomplete="given-name" />
+        <label for="firstName" data-i18n="modal.labels.firstName">First name <span class="req">*</span></label>
+        <input id="firstName" name="firstName" required placeholder="Jane" autocomplete="given-name" data-i18n="modal.placeholders.firstName" />
         <p class="field-msg" data-for="firstName"></p>
       </div>
       <div class="form-row">
-        <label for="lastName">Last name <span class="req">*</span></label>
-        <input id="lastName" name="lastName" required placeholder="Doe" autocomplete="family-name" />
+        <label for="lastName" data-i18n="modal.labels.lastName">Last name <span class="req">*</span></label>
+        <input id="lastName" name="lastName" required placeholder="Doe" autocomplete="family-name" data-i18n="modal.placeholders.lastName" />
         <p class="field-msg" data-for="lastName"></p>
       </div>
       <div class="form-row">
-        <label for="country">Country</label>
-        <input id="country" name="country" placeholder="e.g., France" autocomplete="country-name" />
+        <label for="country" data-i18n="modal.labels.country">Country</label>
+        <input id="country" name="country" placeholder="e.g., France" autocomplete="country-name" data-i18n="modal.placeholders.country" />
       </div>
     </div>
 
     <!-- KYB group -->
     <div class="form-group" data-group="kyb" hidden>
       <div class="form-row">
-        <label for="company">Company <span class="req">*</span></label>
-        <input id="company" name="company" placeholder="Acme Inc." />
+        <label for="company" data-i18n="modal.labels.company">Company <span class="req">*</span></label>
+        <input id="company" name="company" placeholder="Acme Inc." data-i18n="modal.placeholders.company" />
         <p class="field-msg" data-for="company"></p>
       </div>
       <div class="form-row">
-        <label for="desc">Description</label>
-        <textarea id="desc" name="description" rows="4" placeholder="Tell us about your use case..."></textarea>
+        <label for="desc" data-i18n="modal.labels.description">Description</label>
+        <textarea id="desc" name="description" rows="4" placeholder="Tell us about your use case..." data-i18n="modal.placeholders.description"></textarea>
       </div>
     </div>
 
     <div class="modal-actions">
-      <button type="button" class="btn-secondary" id="demoCancel">Cancel</button>
-      <button type="submit" class="btn-primary">Submit</button>
+      <button type="button" class="btn-secondary" id="demoCancel" data-i18n="modal.buttons.cancel">Cancel</button>
+      <button type="submit" class="btn-primary" data-i18n="modal.buttons.submit">Submit</button>
     </div>
   </form>
 </div>
+
 
   <script src="script.js"></script>
 </body>

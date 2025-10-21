@@ -65,5 +65,32 @@
     "copyright": "© 2025 Raven Technologies. Tous droits réservés.",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions générales"
+  },
+
+  "drawer_about": "À propos",
+  "drawer_contact": "Contactez-nous",
+  "drawer_pricing": "Tarifs",
+  "drawer_request_demo": "Demander une démo",
+
+  "about": {
+    "eyebrow": "À propos de Raven",
+    "title": "Raven a été créé pour une raison : rendre du temps aux équipes conformité.",
+    "p1": "Fini de passer d’un outil à l’autre, aux tableurs et aux systèmes à moitié cassés. Une plateforme unique, claire et automatisée qui gère le KYC de la vérification de document jusqu’à la décision — tout au même endroit.",
+    "p2": "La conformité ne doit pas vous ralentir — elle doit vous donner de la puissance. C’est pourquoi Raven combine vérification par IA, contrôles sur des bases mondiales et workflows intuitifs dans un tableau de bord sécurisé, conçu pour la vitesse, la précision et une visibilité totale.",
+    "mission_head": "Notre mission est simple :",
+    "mission_li1": "Rendre la conformité simple, transparente, et pensée pour celles et ceux qui font vraiment le travail.",
+    "eu_head": "Conçu en Europe. Fiable partout.",
+    "eu_p": "Raven est conçu et développé en Europe, conformément aux plus hauts standards de conformité RGPD, de sécurité des données et d’IA éthique.",
+    "industries_p": "Notre technologie accompagne la fintech, la banque, la crypto et les secteurs réglementés, pour accélérer l’onboarding tout en restant pleinement conforme.",
+    "scale_p": "Que vous soyez une startup en hyper-croissance ou une institution établie, Raven s’adapte — de vos 100 premiers clients à votre premier million.",
+    "cta": "Réservez votre démo maintenant →"
+  },
+
+  "contact": {
+    "title": "Contactez-nous",
+    "intro": "Nous serions ravis d’échanger. Démo, partenariat, ou simplement comprendre comment Raven peut fluidifier votre conformité — notre équipe est là pour vous aider.",
+    "email_line": "E-mail : info@raven",
+    "demo_cta": "Réservez votre démo maintenant →",
+    "demo_blurb": "Découvrez Raven en conditions réelles — comment l’outil automatise le KYC, réduit le risque et simplifie l’onboarding."
   }
 }

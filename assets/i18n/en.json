@@ -65,5 +65,32 @@
     "copyright": "© 2025 Raven Technologies. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions"
+  },
+
+  "drawer_about": "About",
+  "drawer_contact": "Contact Us",
+  "drawer_pricing": "Pricing",
+  "drawer_request_demo": "Request a Demo",
+
+  "about": {
+    "eyebrow": "About Raven",
+    "title": "Raven was built for one reason — to give compliance teams their time back.",
+    "p1": "No more jumping between tools, spreadsheets, or half-broken systems. Just one clean, automated platform that handles KYC from document check to decision — all in one place.",
+    "p2": "We believe compliance shouldn’t slow you down — it should empower you. That’s why Raven combines AI-driven verification, global database checks, and intuitive workflows into one secure dashboard designed for speed, accuracy, and total visibility.",
+    "mission_head": "Our mission is simple:",
+    "mission_li1": "Make compliance effortless, transparent, and built for the people who actually do the work.",
+    "eu_head": "Built in Europe. Trusted Everywhere.",
+    "eu_p": "Raven is designed and developed in Europe, following the highest standards of GDPR compliance, data security, and ethical AI.",
+    "industries_p": "Our technology supports businesses across fintech, banking, crypto, and regulated industries, helping teams onboard faster while staying fully compliant.",
+    "scale_p": "Whether you’re a fast-growing startup or an established institution, Raven scales with you — from your first 100 clients to your first million.",
+    "cta": "Book Your Demo Now →"
+  },
+
+  "contact": {
+    "title": "Contact Us",
+    "intro": "We’d love to hear from you. Whether you’re exploring a demo, partnership, or just want to learn how Raven can streamline your compliance, our team is here to help.",
+    "email_line": "Email: info@raven",
+    "demo_cta": "Book Your Demo Now →",
+    "demo_blurb": "Experience Raven in action — see how it automates KYC, reduces risk, and simplifies onboarding."
   }
 }
