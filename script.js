@@ -337,7 +337,7 @@ if (langDrawer) {
     btn.disabled = true;
 
     try {
-      const res = await fetch("https://devel.ravenkyc.com/api/identity/book-demo", {
+      const res = await fetch("https://devel.ravenkyc.com/api/identity/book-demo/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
