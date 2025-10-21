@@ -89,8 +89,41 @@
   "contact": {
     "title": "Contact Us",
     "intro": "We’d love to hear from you. Whether you’re exploring a demo, partnership, or just want to learn how Raven can streamline your compliance, our team is here to help.",
-    "email_line": "Email: info@raven",
+    "email_line": "Email: info@ravenkyc.com",
     "demo_cta": "Book Your Demo Now →",
     "demo_blurb": "Experience Raven in action — see how it automates KYC, reduces risk, and simplifies onboarding."
+  },
+   "modal": {
+    "title": "Request a Demo",
+    "tabs": { "kyc": "KYC", "kyb": "KYB" },
+    "labels": {
+      "email": "Email",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "country": "Country",
+      "company": "Company",
+      "description": "Description"
+    },
+    "placeholders": {
+      "email": "you@company.com",
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "country": "e.g., France",
+      "company": "Acme Inc.",
+      "description": "Tell us about your use case..."
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "submitting": "Submitting…",
+      "success": "Submitted ✓"
+    },
+    "errors": {
+      "emailInvalid": "Please enter a valid email.",
+      "firstNameRequired": "First name is required.",
+      "lastNameRequired": "Last name is required.",
+      "companyRequired": "Company is required.",
+      "submitFailed": "There was an error sending your request. Please try again."
+    }
   }
 }

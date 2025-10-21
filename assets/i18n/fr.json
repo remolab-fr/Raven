@@ -89,8 +89,41 @@
   "contact": {
     "title": "Contactez-nous",
     "intro": "Nous serions ravis d’échanger. Démo, partenariat, ou simplement comprendre comment Raven peut fluidifier votre conformité — notre équipe est là pour vous aider.",
-    "email_line": "E-mail : info@raven",
+    "email_line": "E-mail : info@ravenkyc.com",
     "demo_cta": "Réservez votre démo maintenant →",
     "demo_blurb": "Découvrez Raven en conditions réelles — comment l’outil automatise le KYC, réduit le risque et simplifie l’onboarding."
+  },
+  "modal": {
+    "title": "Demander une démo",
+    "tabs": { "kyc": "KYC", "kyb": "KYB" },
+    "labels": {
+      "email": "E-mail",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "country": "Pays",
+      "company": "Entreprise",
+      "description": "Description"
+    },
+    "placeholders": {
+      "email": "vous@entreprise.com",
+      "firstName": "Jeanne",
+      "lastName": "Durand",
+      "country": "ex. France",
+      "company": "Acme Inc.",
+      "description": "Parlez-nous de votre cas d’usage…"
+    },
+    "buttons": {
+      "cancel": "Annuler",
+      "submit": "Envoyer",
+      "submitting": "Envoi…",
+      "success": "Envoyé ✓"
+    },
+    "errors": {
+      "emailInvalid": "Veuillez saisir un e-mail valide.",
+      "firstNameRequired": "Le prénom est requis.",
+      "lastNameRequired": "Le nom est requis.",
+      "companyRequired": "L’entreprise est requise.",
+      "submitFailed": "Une erreur est survenue. Merci de réessayer."
+    }
   }
 }
