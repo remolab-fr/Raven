@@ -651,7 +651,7 @@ section {
 }
 @media (max-width: 900px) {
   .header-nav,
-  .btn.cta {
+  .site-header .btn.cta { 
     display: none;
   }
   .menu-btn {
@@ -659,7 +659,7 @@ section {
   }
 }
 
-* Navigation Drawer */
+/* Navigation Drawer */
 .drawer-backdrop {
   position: fixed;
   inset: 0;
@@ -768,11 +768,14 @@ section {
 .modal-backdrop.show { opacity: 1; pointer-events: auto; }
 
 .modal {
-  position: sticky; inset: 0;
+  position: fixed; /* was sticky */
+  inset: 0;
   display: grid; place-items: center;
   padding: 24px;
   z-index: 1001;
   visibility: hidden;
+  /* optional: */
+  /* overflow-y: auto; */
 }
 .modal[aria-hidden="false"] { visibility: visible; }
 .modal > * { width: min(560px, 100%); }
@@ -866,3 +869,7 @@ section {
   from { transform: translateY(8px) scale(.98); opacity: .6; }
   to   { transform: translateY(0)   scale(1);    opacity: 1; }
 }
+
+/* Drawer stack sits under the modal stack */
+.drawer-backdrop { z-index: 1200; }  /* visible above page */
+.drawer          { z-index: 1210; }  /* above its own backdrop */
