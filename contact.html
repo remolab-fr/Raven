@@ -93,6 +93,7 @@
    <!-- === Demo Modal === -->
 <div class="modal-backdrop" id="demoModalBackdrop" hidden></div>
 <div class="modal" id="demoModal" role="dialog" aria-modal="true" aria-labelledby="demoModalTitle" aria-hidden="true">
+  <div>
   <div class="modal-head">
     <h3 id="demoModalTitle" data-i18n="modal.title">Request a Demo</h3>
     <button class="modal-close" type="button" aria-label="Close">
@@ -151,13 +152,15 @@
       <button type="submit" class="btn-primary" data-i18n="modal.buttons.submit">Submit</button>
     </div>
   </form>
+  </div>
+
 </div>
   <script src="script.js"></script>
   <script>
     (function(){
       const path = location.pathname.split('/').pop() || 'index.html';
       document.querySelectorAll('.header-nav a, .drawer a').forEach(a=>{
-        const file = (a.getAttribute('href')||'').split('#')[0];
+        const file = (a.getAttribute('href')||'').split('#drawer-backdrop')[0];
         if (file === path) { a.setAttribute('aria-current','page'); a.style.fontWeight='800'; }
       });
     })();
